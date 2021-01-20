@@ -28,6 +28,8 @@ _Enter any year into the form, click the submit button, and our leap year detect
 ## Tests
 
 Describe: isLeapYear()
+Test: "It returns false for years that are not a leap year"
+Expect(isLeapYear(1993)).toEqual(false);
 
 ## License
 
@@ -36,3 +38,5 @@ Describe: isLeapYear()
 ## Contact Information
 
 _Jo Miller: joannamiller@gmail.com_
+_Taylor Baker: taylorbaker.coding@gmail.com_
+_Olha Hizhytska olgainfotech@gmail.com_
