@@ -12,6 +12,15 @@ Each time a user inputs a year to evaluate, we will need to test the value again
 
 let leapYearInput;
 
-If (leapYearInput % 4 === 0) {
-  return true;
+function isLeapYear(year) {
+  if ((year % 100 === 0) && (year % 4 === 0) || (year % 400 === 0)) {
+    return true;
+  } else {
+    return false;
+  }
 }
+
+
+UI Output Whiteboard: 
+
+
